@@ -213,6 +213,8 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+/.vscode
+
 # GhostDoc plugin setting file
 *.GhostDoc.xml
 
