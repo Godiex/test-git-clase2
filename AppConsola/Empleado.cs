@@ -1,3 +1,5 @@
+
+
 namespace AppConsola;
 
 public class Empleado
@@ -15,5 +17,8 @@ public class Empleado
         Edad = edad;
         DepartamentoId = departamentoId;
     }
+    
+    
+
 }
  
