@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Probando git");
-Console.WriteLine("Mi nombre es Luis Aodolfo Echeverri Molina");
+Console.WriteLine("Mi nombre es Luis Adolfo Echeverri Molina");
 Console.WriteLine("mi nombre es diego villa");
