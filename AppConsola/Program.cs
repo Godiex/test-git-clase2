@@ -1,7 +1,8 @@
 ﻿using AppConsola;
 
 RepositorioDepartamento repositorioDepartamento = new RepositorioDepartamento();
-//repositorioDepartamento.Agregar("finanzas");
+//repositorioDepartamento.Agregar("INGENIERIA");
+repositorioDepartamento.Eliminar(2);
 var departamentos = repositorioDepartamento.Consultar();
 foreach (var item in departamentos)
 {
