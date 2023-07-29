@@ -2,7 +2,7 @@
 
 RepositorioDepartamento repositorioDepartamento = new RepositorioDepartamento();
 //repositorioDepartamento.Agregar("INGENIERIA");
-repositorioDepartamento.Eliminar(6);
+repositorioDepartamento.Actualizar(new Departamento(5, "CONTABILIDA-REGISTROS"));
 var departamentos = repositorioDepartamento.Consultar();
 foreach (var item in departamentos)
 {

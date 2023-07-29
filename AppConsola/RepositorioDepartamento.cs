@@ -45,4 +45,15 @@ public class RepositorioDepartamento
         cmd.ExecuteNonQuery();
         conexion.Close();
     }
+
+    public void Actualizar(Departamento departamentoActualizado)
+    {
+        using SqlConnection conexion = new SqlConnection(CadenaConexion.VALOR);
+        using SqlCommand cmd = new SqlCommand("UPDATE Departamentos SET Nombre = @nombre WHERE Id = @id;", conexion);
+        cmd.Parameters.AddWithValue("@id", departamentoActualizado.Id);
+        cmd.Parameters.AddWithValue("@Nombre", departamentoActualizado.Nombre);
+        conexion.Open();
+        cmd.ExecuteNonQuery();
+        conexion.Close();
+    }
 }
