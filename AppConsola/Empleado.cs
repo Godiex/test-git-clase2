@@ -10,8 +10,10 @@ public class Empleado
     public int Edad {get; set;}
     public int DepartamentoId {get; set;}
 
-    public Empleado(string nombre,string cargo,int edad,int departamentoId)
+
+    public Empleado(string id, string nombre,string cargo,int edad,int departamentoId, string Id)
     {
+        Id = id;
         Nombre = nombre;
         Cargo = cargo;
         Edad = edad;
