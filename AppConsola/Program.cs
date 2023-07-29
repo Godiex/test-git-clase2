@@ -1,5 +1,5 @@
 ﻿using AppConsola;
 
 RepositorioDepartamento repositorioDepartamento = new RepositorioDepartamento();
-repositorioDepartamento.Agregar("CONTABILIDAD");
+repositorioDepartamento.Agregar("ARTES");
 Console.ReadKey();
