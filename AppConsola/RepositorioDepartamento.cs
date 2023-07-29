@@ -56,4 +56,5 @@ public class RepositorioDepartamento
         cmd.ExecuteNonQuery();
         conexion.Close();
     }
+
 }
