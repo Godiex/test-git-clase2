@@ -1,10 +1,10 @@
 ﻿using AppConsola;
 
 RepositorioDepartamento repositorioDepartamento = new RepositorioDepartamento();
-repositorioDepartamento.Agregar("ARTES");
-repositorioDepartamento.Agregar("Ingenieria");
+// repositorioDepartamento.Agregar("ARTES");
+// repositorioDepartamento.Agregar("Ingenieria");
 //repositorioDepartamento.Agregar("INGENIERIA");
-repositorioDepartamento.Eliminar(6);
+repositorioDepartamento.Eliminar(5);
 var departamentos = repositorioDepartamento.Consultar();
 foreach (var item in departamentos)
 {
