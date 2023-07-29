@@ -1,9 +1,10 @@
 using Microsoft.Data.SqlClient;
 
 namespace AppConsola;
-
+using Microsoft.Data.SqlClient;
 public class RepositorioDepartamento
 {
+     
     public void Agregar(string nombre)
     {
         using SqlConnection conexion = new SqlConnection(CadenaConexion.VALOR);
@@ -56,4 +57,5 @@ public class RepositorioDepartamento
         cmd.ExecuteNonQuery();
         conexion.Close();
     }
+
 }
