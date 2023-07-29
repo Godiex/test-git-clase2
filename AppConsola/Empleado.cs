@@ -8,7 +8,7 @@ public class Empleado
     public int Edad {get; set;}
     public int DepartamentoId {get; set;}
 
-    public Empleado(string nombre,string cargo,int edad,int departamentoId)
+    public Empleado(string nombre,string cargo,int edad,int departamentoId, string Id)
     {
         Nombre = nombre;
         Cargo = cargo;
