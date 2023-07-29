@@ -204,7 +204,7 @@ UpgradeLog*.htm
 # SQL Server files
 *.mdf
 *.ldf
-
+CadenaConexion.cs
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
