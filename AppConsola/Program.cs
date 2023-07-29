@@ -4,6 +4,7 @@ RepositorioDepartamento repositorioDepartamento = new RepositorioDepartamento();
 repositorioDepartamento.Agregar("ARTES");
 repositorioDepartamento.Agregar("Ingenieria");
 //repositorioDepartamento.Agregar("INGENIERIA");
+repositorioDepartamento.Eliminar(6);
 var departamentos = repositorioDepartamento.Consultar();
 foreach (var item in departamentos)
 {

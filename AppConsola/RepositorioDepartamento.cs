@@ -36,4 +36,14 @@ public class RepositorioDepartamento
         conexion.Close();
         return departamentos;
     }
+
+    public void Eliminar(int id)
+    {
+        using SqlConnection conexion = new SqlConnection(CadenaConexion.VALOR);
+        using SqlCommand cmd = new SqlCommand("DELETE Departamentos WHERE Id = @id;", conexion);
+        cmd.Parameters.AddWithValue("@id", id);
+        conexion.Open();
+        cmd.ExecuteNonQuery();
+        conexion.Close();
+    }
 }
